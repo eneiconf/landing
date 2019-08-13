@@ -11,7 +11,7 @@ body {
   background-color: black;
 }
 
-body > #app > div {
+#app {
   height: 100vh;
 }
 
@@ -117,7 +117,6 @@ body > #app > div {
 }
 
 .content {
-  margin: 27.5vh auto;
   text-align: center;
   color: #EAEAEA;
 }
@@ -164,7 +163,7 @@ body > #app > div {
     background-color: #000000;
   }
 
-  .logo img{
+  .logo img {
     max-width: 320px;
   }
 
