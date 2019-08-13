@@ -6,7 +6,6 @@ import {
   faInstagram,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
-import '../styles/social.css';
 
 export default function SocialLinks() {
   return (
