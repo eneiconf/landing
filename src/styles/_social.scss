@@ -1,0 +1,15 @@
+.social-container {
+  margin: 10px;
+  padding: 20px;
+}
+
+a.social-link {
+  color: white;
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social-link:hover {
+  transform: scale(2);
+}
