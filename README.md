@@ -6,7 +6,8 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/32aa2e00-de21-4c39-b40d-3ec0fc0e2bee/deploy-status)](https://app.netlify.com/sites/enei-2020-landing/deploys)
 
-A landing page for the National Software Engineering Students Meeting website.
+A landing page for the National Software Engineering Students Meeting website
+built with React.
 
 ## Getting Started
 
@@ -22,6 +23,7 @@ The following software is required to be installed on your system:
 Install all dependencies using `npm install`.
 
 ### Development
+
 Starting the development server.
 
 ```
@@ -52,4 +54,3 @@ to us.
 
 This project is licensed under the MIT License - see the [LICENSE][license] file
 for details.
-
