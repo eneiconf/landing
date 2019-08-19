@@ -1,4 +1,4 @@
-[contributing]: CONTRIBUTING.md
+[contributing]: .github/CONTRIBUTING.md
 [code_of_conduct]: CODE_OF_CONDUCT.md
 [license]: LICENSE.txt
 
