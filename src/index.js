@@ -22,7 +22,7 @@ function App() {
         </div>
         <div className="text">
           <h1 className="title">Encontro Nacional de Estudantes de Informática</h1>
-          <h2 className="date">23 a 26 de Fevereiro 2020</h2>
+          <h2 className="date">23 a 26 de fevereiro 2020</h2>
           <h3 className="location">Braga, Portugal</h3>
         </div>
         <SocialLinks facebook="ENEIConf" twitter="eneiconf" instagram="eneiconf" github="eneiconf" />
