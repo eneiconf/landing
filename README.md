@@ -9,12 +9,12 @@
 A landing page for the National Software Engineering Students Meeting website
 built with React.
 
-## Getting Started
+## :rocket: Getting Started
 
 These instructions will get you a copy of the project up and running on your
 local machine for development and testing purposes.
 
-### Prerequisites
+### :inbox_tray: Prerequisites
 
 The following software is required to be installed on your system:
 
@@ -22,7 +22,7 @@ The following software is required to be installed on your system:
 
 Install all dependencies using `npm install`.
 
-### Development
+### :hammer: Development
 
 Starting the development server.
 
@@ -36,7 +36,7 @@ Running tests.
 npm run test
 ```
 
-### Deployment
+### :package: Deployment
 
 Bundling the app into static files for production.
 
@@ -44,13 +44,13 @@ Bundling the app into static files for production.
 npm run build
 ```
 
-## Contributing
+## :handshake: Contributing
 
 Please read [CONTRIBUTING][contributing] and [CODE_OF_CONDUCT][code_of_conduct]
 for details on our code of conduct and the process for submitting pull requests
 to us.
 
-## License
+## :memo: License
 
 This project is licensed under the MIT License - see the [LICENSE][license] file
 for details.
