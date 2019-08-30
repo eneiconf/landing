@@ -17,15 +17,23 @@ function App() {
   return (
     <div className="wrapper">
       <div className="content">
+
         <div className="logo">
           <img alt="logo do evento" src={Logo} />
         </div>
+
         <div className="text">
           <h1 className="title">Encontro Nacional de Estudantes de Informática</h1>
           <h2 className="date">23 a 26 de fevereiro 2020</h2>
           <h3 className="location">Braga, Portugal</h3>
         </div>
+
         <SocialLinks facebook="ENEIConf" twitter="eneiconf" instagram="eneiconf" github="eneiconf" />
+
+          <a href="mailto:relacoes.externas@enei.pt?subject=[ENEI 2020] Interesse em patrocionar o evento" className="sponsor">
+            Seja Patrocinador
+          </a>
+
         <div className="darken">
           <div id="backgroundchange">
             <div className="backgroundimg" id="back1" />
@@ -34,6 +42,7 @@ function App() {
             <div className="backgroundimg" id="back4" />
           </div>
         </div>
+
       </div>
     </div>
   );

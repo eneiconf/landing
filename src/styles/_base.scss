@@ -134,7 +134,7 @@ body {
 }
 
 .date {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 35px;
   text-transform: uppercase;
@@ -152,6 +152,22 @@ body {
   transition: 0.5s ease;
   border-bottom: 1px solid transparent;
   text-transform: uppercase;
+}
+
+.sponsor {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  margin: 20px;
+  padding: 15px;
+  text-decoration: none;
+  color: #EAEAEA;
+  transition: 0.5s ease;
+  border-bottom: 1px solid transparent;
+  text-transform: uppercase;
+}
+
+a.sponsor:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 620px) {
