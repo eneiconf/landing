@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Info = ({title, date, location, logo}) => (
+const Info = ({title, date = null, location = null, logo}) => (
   <>
     <div className="logo">
       <img alt={logo.alt} src={require(`../images/${logo.path}`)}/>
