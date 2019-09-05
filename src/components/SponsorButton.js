@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const SponsorButton = ({email, subject}) => (
+const SponsorButton = ({email, subject = "Interesse em ser patrocinador"}) => (
   <a href={`mailto:${email}?subject=${subject}`} className="sponsor">
     Seja Patrocinador
   </a>
@@ -10,10 +10,6 @@ const SponsorButton = ({email, subject}) => (
 SponsorButton.propTypes = {
   email: PropTypes.string.isRequired,
   subject: PropTypes.string,
-}
-
-SponsorButton.defaultProps = {
-  subject: "Interesse em ser patrocinador",
 }
 
 export default SponsorButton;
