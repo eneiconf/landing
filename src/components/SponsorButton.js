@@ -12,4 +12,8 @@ SponsorButton.propTypes = {
   subject: PropTypes.string,
 }
 
+SponsorButton.defaultProps = {
+  subject: "Interesse em ser patrocinador",
+}
+
 export default SponsorButton;
