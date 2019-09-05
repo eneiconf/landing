@@ -3,36 +3,39 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 
+// SETTINGS
+import CONFIG from './data/config.json';
+
 // STYLES
 import 'normalize.css';
 import './styles/app.scss';
 
-// RESOURCES
-import Logo from './images/logo.png';
-
 // COMPONENTS
+import Info from './components/Info';
 import SocialLinks from './components/SocialLinks';
+import SponsorButton from './components/SponsorButton';
 
 function App() {
   return (
     <div className="wrapper">
       <div className="content">
 
-        <div className="logo">
-          <img alt="logo do evento" src={Logo} />
-        </div>
+        <Info
+          title={CONFIG.info.title}
+          date={CONFIG.info.date}
+          location={CONFIG.info.location}
+          logo={CONFIG.info.logo}
+        />
 
-        <div className="text">
-          <h1 className="title">Encontro Nacional de Estudantes de Informática</h1>
-          <h2 className="date">23 a 26 de fevereiro 2020</h2>
-          <h3 className="location">Braga, Portugal</h3>
-        </div>
+        <SocialLinks
+          facebook={CONFIG.social.facebook}
+          twitter={CONFIG.social.twitter}
+          instagram={CONFIG.social.instagram}
+          github={CONFIG.social.github}
+        />
 
-        <SocialLinks facebook="ENEIConf" twitter="eneiconf" instagram="eneiconf" github="eneiconf" />
-
-          <a href="mailto:relacoes.externas@enei.pt?subject=[ENEI 2020] Interesse em patrocionar o evento" className="sponsor">
-            Seja Patrocinador
-          </a>
+        <SponsorButton email={CONFIG.sponsor.email}
+          subject={CONFIG.sponsor.subject} />
 
         <div className="darken">
           <div id="backgroundchange">
