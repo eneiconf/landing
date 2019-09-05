@@ -22,7 +22,7 @@ Info.propTypes = {
   logo: PropTypes.exact({
     alt: PropTypes.string.isRequired,
     path: PropTypes.string.isRequired,
-  })
+  }).isRequired,
 }
 
 export default Info;
