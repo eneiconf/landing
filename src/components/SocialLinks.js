@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebook,
@@ -23,5 +24,12 @@ const SocialLinks = ({ facebook, twitter, instagram, github }) => (
     </a>
   </div>
 );
+
+SocialLinks.propTypes = {
+  facebook: PropTypes.string.isRequired,
+  instagram: PropTypes.string.isRequired,
+  twitter: PropTypes.string.isRequired,
+  github: PropTypes.string.isRequired,
+}
 
 export default SocialLinks;

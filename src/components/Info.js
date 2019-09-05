@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Info = ({title, date, location, logo}) => (
   <>
@@ -13,5 +14,15 @@ const Info = ({title, date, location, logo}) => (
     </div>
   </>
 );
+
+Info.propTypes = {
+  title: PropTypes.string.isRequired,
+  date: PropTypes.string,
+  location: PropTypes.string,
+  logo: PropTypes.exact({
+    alt: PropTypes.string.isRequired,
+    path: PropTypes.string.isRequired,
+  })
+}
 
 export default Info;
