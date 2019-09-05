@@ -3,15 +3,14 @@ import PropTypes from 'prop-types';
 
 const Info = ({title, date = null, location = null, logo}) => (
   <>
-    <div className="logo">
-      <img alt={logo.alt} src={require(`../images/${logo.path}`)}/>
-    </div>
-
-    <div className="text">
-      <h1 className="title">{title}</h1>
-      <h2 className="date">{date}</h2>
-      <h3 className="location">{location}</h3>
-    </div>
+  <div className="logo">
+    <img alt={logo.alt} src={require(`../images/${logo.path}`)}/>
+  </div>
+  <div className="text">
+    <h1 className="title">{title}</h1>
+    <h2 className="date">{date}</h2>
+    <h3 className="location">{location}</h3>
+  </div>
   </>
 );
 
