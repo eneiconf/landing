@@ -1,0 +1,21 @@
+{
+  "info": {
+    "title": "Econtro Nacional de Estudantes de Informática",
+    "date": "23 a 26 de fevereiro de 2020",
+    "location": "Braga, Portugal",
+    "logo": {
+      "path": "logo.png",
+      "alt": "logo do evento"
+    }
+  },
+  "social": {
+    "facebook": "ENEIConf",
+    "instagram": "eneiconf",
+    "twitter": "eneiconf",
+    "github": "eneiconf"
+  },
+  "sponsor": {
+    "email": "relacoes.externas@enei.pt",
+    "subject": "[ENEI 2020] Interesse em patrocionar o evento"
+  }
+}
