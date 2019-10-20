@@ -28,6 +28,7 @@ const App = () => (
         twitter={CONFIG.social.twitter}
         instagram={CONFIG.social.instagram}
         github={CONFIG.social.github}
+        medium={CONFIG.social.medium}
       />
       <SponsorButton email={CONFIG.sponsor.email}
         subject={CONFIG.sponsor.subject} />
