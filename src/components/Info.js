@@ -1,16 +1,16 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-const Info = ({title, date = null, location = null, logo}) => (
+const Info = ({ title, date = null, location = null, logo }) => (
   <>
-  <div className="logo">
-    <img alt={logo.alt} src={require(`../images/${logo.path}`)}/>
-  </div>
-  <div className="text">
-    <h1 className="title">{title}</h1>
-    <h2 className="date">{date}</h2>
-    <h3 className="location">{location}</h3>
-  </div>
+    <div className="logo">
+      <img alt={logo.alt} src={require(`../images/${logo.path}`)} />
+    </div>
+    <div className="text">
+      <h1 className="title">{title}</h1>
+      <h2 className="date">{date}</h2>
+      <h3 className="location">{location}</h3>
+    </div>
   </>
 );
 
@@ -22,6 +22,6 @@ Info.propTypes = {
     alt: PropTypes.string.isRequired,
     path: PropTypes.string.isRequired,
   }).isRequired,
-}
+};
 
 export default Info;
