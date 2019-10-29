@@ -1,13 +1,13 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebook,
   faTwitter,
   faInstagram,
   faGithub,
   faMedium,
-} from "@fortawesome/free-brands-svg-icons";
+} from '@fortawesome/free-brands-svg-icons';
 
 const SocialLinks = ({ facebook, twitter, instagram, github, medium }) => (
   <div className="social-container">

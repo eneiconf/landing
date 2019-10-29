@@ -1,52 +1,96 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130588243-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-130588243-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-    gtag('config', 'UA-130588243-1');
-  </script>
+      gtag('config', 'UA-130588243-1');
+    </script>
 
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png">
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <link rel="mask-icon" href="%PUBLIC_URL%/safari-pinned-tab.svg" color="#ed7950">
-  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-  <meta name="msapplication-TileColor" content="#ed7950">
-  <meta name="msapplication-config" content="%PUBLIC_URL%/browserconfig.xml">
-  <meta name="theme-color" content="#ed7950">
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="%PUBLIC_URL%/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="%PUBLIC_URL%/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="%PUBLIC_URL%/favicon-16x16.png"
+    />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="%PUBLIC_URL%/safari-pinned-tab.svg"
+      color="#ed7950"
+    />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#ed7950" />
+    <meta
+      name="msapplication-config"
+      content="%PUBLIC_URL%/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ed7950" />
 
-  <link rel="canonical" href="https://enei.pt" />
-  <meta name="description" content="O Encontro Nacional de Estudantes de Informática regressa nos dias 23, 24, 25 e 26 de fevereiro e volta para marcar a diferença na cidade de Braga!" />
-  <meta name="keywords" content="ENEI,Encontro,Estudantes,Informática,CeSIUM,Braga,UMinho">
-  <meta property="og:locale" content="pt_PT" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Encontro Nacional de Estudantes de Informática 2020" />
-  <meta property="og:description" content="O Encontro Nacional de Estudantes de Informática regressa nos dias 23, 24, 25 e 26 de fevereiro e volta para marcar a diferença na cidade de Braga!" />
-  <meta property="og:url" content="https://enei.pt" />
-  <meta property="og:site_name" content="ENEI 2020 | Braga" />
-  <meta property="og:image" content="https://enei.pt/hero.png" />
-  <meta property="og:image:secure_url" content="https://enei.pt/hero.png" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:description" content="O Encontro Nacional de Estudantes de Informática regressa nos dias 23, 24, 25 e 26 de fevereiro e volta para marcar a diferença na cidade de Braga!" />
-  <meta name="twitter:title" content="Encontro Nacional de Estudantes de Informática 2020" />
-  <meta name="twitter:site" content="@eneiconf" />
-  <meta name="twitter:image" content="https://enei.pt/hero.png" />
-  <meta name="twitter:creator" content="@eneiconf" />
-  <link rel="shortlink" href="https://enei.pt" />
-  <title>ENEI 2020</title>
-</head>
-<body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="app"></div>
-</body>
+    <link rel="canonical" href="https://enei.pt" />
+    <meta
+      name="description"
+      content="O Encontro Nacional de Estudantes de Informática regressa nos dias 23, 24, 25 e 26 de fevereiro e volta para marcar a diferença na cidade de Braga!"
+    />
+    <meta
+      name="keywords"
+      content="ENEI,Encontro,Estudantes,Informática,CeSIUM,Braga,UMinho"
+    />
+    <meta property="og:locale" content="pt_PT" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Encontro Nacional de Estudantes de Informática 2020"
+    />
+    <meta
+      property="og:description"
+      content="O Encontro Nacional de Estudantes de Informática regressa nos dias 23, 24, 25 e 26 de fevereiro e volta para marcar a diferença na cidade de Braga!"
+    />
+    <meta property="og:url" content="https://enei.pt" />
+    <meta property="og:site_name" content="ENEI 2020 | Braga" />
+    <meta property="og:image" content="https://enei.pt/hero.png" />
+    <meta property="og:image:secure_url" content="https://enei.pt/hero.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:description"
+      content="O Encontro Nacional de Estudantes de Informática regressa nos dias 23, 24, 25 e 26 de fevereiro e volta para marcar a diferença na cidade de Braga!"
+    />
+    <meta
+      name="twitter:title"
+      content="Encontro Nacional de Estudantes de Informática 2020"
+    />
+    <meta name="twitter:site" content="@eneiconf" />
+    <meta name="twitter:image" content="https://enei.pt/hero.png" />
+    <meta name="twitter:creator" content="@eneiconf" />
+    <link rel="shortlink" href="https://enei.pt" />
+    <title>ENEI 2020</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="app"></div>
+  </body>
 </html>

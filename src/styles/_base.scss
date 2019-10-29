@@ -26,7 +26,7 @@ body {
 }
 
 .darken::before {
-  content: " ";
+  content: ' ';
   z-index: -1;
   position: absolute;
   top: 0;
@@ -51,35 +51,55 @@ body {
 }
 
 #back1 {
-  background-image: url("../images/backgrounds/1.jpg");
+  background-image: url('../images/backgrounds/1.jpg');
 }
 
 #back2 {
-  background-image: url("../images/backgrounds/2.jpg");
+  background-image: url('../images/backgrounds/2.jpg');
 }
 
 #back3 {
-  background-image: url("../images/backgrounds/3.jpg");
+  background-image: url('../images/backgrounds/3.jpg');
 }
 
 #back4 {
-  background-image: url("../images/backgrounds/4.jpg");
+  background-image: url('../images/backgrounds/4.jpg');
 }
 
 @keyframes backgroundchangeFadeInOut {
-  0% { opacity: 1; }
-  17% { opacity: 1; }
-  25% { opacity: 0; }
-  92% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes backgroundchangeFadeInOut {
-  0% { opacity: 1; }
-  17% { opacity: 1; }
-  25% { opacity: 0; }
-  92% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 #backgroundchange div:nth-of-type(1) {
@@ -118,7 +138,7 @@ body {
 
 .content {
   text-align: center;
-  color: #EAEAEA;
+  color: #eaeaea;
 }
 
 .logo img {
@@ -148,7 +168,7 @@ body {
   margin: 0;
   padding: 5px;
   text-decoration: none;
-  color: #EAEAEA;
+  color: #eaeaea;
   transition: 0.5s ease;
   border-bottom: 1px solid transparent;
   text-transform: uppercase;
@@ -160,7 +180,7 @@ body {
   margin: 20px;
   padding: 15px;
   text-decoration: none;
-  color: #EAEAEA;
+  color: #eaeaea;
   transition: 0.5s ease;
   border-bottom: 1px solid transparent;
   text-transform: uppercase;
