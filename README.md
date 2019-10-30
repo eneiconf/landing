@@ -36,6 +36,23 @@ Running tests.
 npm run test
 ```
 
+Lint your code.
+
+```
+npm run lint
+```
+
+Format your code.
+
+```
+npm run format
+```
+
+Thanks to [husky](https://github.com/typicode/husky), the `lint` and `format`
+script will run every time you make a commit. If you receive any warnings or
+your code isn't properly formatted, you should update your commit before pushing
+your code.
+
 ### :package: Deployment
 
 Bundling the app into static files for production.
