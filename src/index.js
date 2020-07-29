@@ -17,21 +17,9 @@ import SponsorButton from './components/SponsorButton';
 const App = () => (
   <div className="wrapper">
     <div className="content">
-      <Info
-        title={CONFIG.info.title}
-        date={CONFIG.info.date}
-        location={CONFIG.info.location}
-        logo={CONFIG.info.logo}
-      />
-      <SocialLinks
-        facebook={CONFIG.social.facebook}
-        twitter={CONFIG.social.twitter}
-        instagram={CONFIG.social.instagram}
-        github={CONFIG.social.github}
-        medium={CONFIG.social.medium}
-      />
-      <SponsorButton email={CONFIG.sponsor.email}
-        subject={CONFIG.sponsor.subject} />
+      <Info {...CONFIG.info} />
+      <SocialLinks {...CONFIG.social} />
+      <SponsorButton {...CONFIG.sponsor} />
       <div className="darken">
         <div id="backgroundchange">
           <div className="backgroundimg" id="back1" />
