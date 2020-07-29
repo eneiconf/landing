@@ -10,25 +10,21 @@ import 'normalize.css';
 import './styles/app.scss';
 
 // COMPONENTS
+import BackgroundSlider from 'react-background-slider';
+
 import Info from './components/Info';
 import SocialLinks from './components/SocialLinks';
 import SponsorButton from './components/SponsorButton';
 
+// IMAGES
+import images from './images/backgrounds';
+
 const App = () => (
-  <div className="wrapper">
-    <div className="content">
-      <Info {...CONFIG.info} />
-      <SocialLinks {...CONFIG.social} />
-      <SponsorButton {...CONFIG.sponsor} />
-      <div className="darken">
-        <div id="backgroundchange">
-          <div className="backgroundimg" id="back1" />
-          <div className="backgroundimg" id="back2" />
-          <div className="backgroundimg" id="back3" />
-          <div className="backgroundimg" id="back4" />
-        </div>
-      </div>
-    </div>
+  <div className="content">
+    <BackgroundSlider images={images} duration={5} transition={2} />
+    <Info {...CONFIG.info} />
+    <SocialLinks {...CONFIG.social} />
+    <SponsorButton {...CONFIG.sponsor} />
   </div>
 );
 

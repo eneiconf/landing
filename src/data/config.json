@@ -18,5 +18,6 @@
   "sponsor": {
     "email": "relacoes.externas@enei.pt",
     "subject": "[ENEI 2020] Interesse em patrocionar o evento"
-  }
+  },
+  "background": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"]
 }
